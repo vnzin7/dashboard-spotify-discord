@@ -5,6 +5,7 @@ import { Server, Users, Crown } from 'lucide-react';
 
 interface ServerStats {
   name: string;
+  icon?: string;  // ← Adicione esta linha (torna opcional)
   totalMembers: number;
   onlineMembers: number;
   textChannels: number;
